@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Um dia, enquanto limpava o sotão de minha casa, descobri uma carta antiga que contava sobre um tesouro enterrado em uma ilha na Bahia. Você resolve ir atrás do tal tesouro.</p>
+            <button class="btn-proximo" data-proximo="1">Bahia</button>
+            <button class="btn-proximo" data-proximo="2">Biblioteca</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada na Bahia, mas antes procura uma pousada para descançar. Ao amanhecer, você vai até um comércio para buscar informações.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista em um bar local</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Na biblioteca, você descobre mais informações sobre o tesouro (o motivo pelo qual foi enterrado, quando foi e por quem). Quem enterrou o tesouro foi seu bisavô.
+                Você decide explorar mais e descobre uma carta que supostamente te levava a outro tesouro.</p>
+                <button class="btn-proximo" data-proximo="5">Investigar mais sobre o seu bisavô</button>
+                <button class="btn-proximo" data-proximo="6">Ir para o local em que a carta apontava</button>
+            </div>
+            <div class="passo" id="passo-3">
+                <p>No bar, você descobre que para ir até a ilha você deve pegar um barco.</p>
+                <button class="btn-proximo" data-proximo="7">Pegar o barco e ir para a ilha.</button>
+            </div>
+            <div class="passo" id="passo-4">
+                <img src="cenario-passo4.png" alt="imagem voltando para casa e desitindo da aventura">
+                <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                    encontrado.</p>
+            </div>
+            <div class="passo" id="passo-5">
+                <p>Na biblioteca, você descobre um mapa antigo escrito por seu bisavô escondido atrás de um livro, apontando que a próxima pista está em uma ilha na Bahia.</p>
+                <button class="btn-proximo" data-proximo="7">Viajar para a ilha da bahia</button>
+            </div>
+    
+            <div class="passo" id="passo-6">
+                <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+                <button class="btn-proximo" data-proximo="8">você decide voltar</button>
+            </div>
+    
+            <div class="passo" id="passo-7">
+                <p>Ao chegar na ilha, você se depara com uma placa dizendo que você deve resolver um enigma para entrar no local. Você pode continuar ou desistir, porém, se desistir deve enfrentar seu maior medo.</p>
+                <button class="btn-proximo" data-proximo="9">Continuar</button>
+                <button class="btn-proximo" data-proximo="10">Desistir</button>
+            </div>
+    
+            <div class="passo" id="passo-8">
+                <p>De volta a biblioteca, você finalmente encontra o mapa antigo. Agora, para a Bahia!</p>
+                <button class="btn-proximo" data-proximo="7">Seguir para a ilha na Bahia</button>
+            </div>
+    
+            <div class="passo" id="passo-9">
+                <p>A charada dizia o seguinte: “Se o dia anterior a ontem é o dia 21, que dia é o dia depois de amanhã?”</p>
+                <button class="btn-proximo" data-proximo="11">Você acerta a charada e entra a ilha</button>
+            </div>
+    
+            <div class="passo" id="passo-10">
+                <p>Porém, ao ver seu maior medo se tornar realidade você muda de ideia</p>
+                <button class="btn-proximo" data-proximo="12">Retornar e tentar acertar a charada</button>
+            </div>
+    
+            <div class="passo" id="passo-11">
+                <img src="cenario-passo11.png" alt="encontrando um tesouro">
+                <p>Dentro da ilha, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar este lugar.</p>
+            </div>
+    
+            <div class="passo" id="passo-12">
+                <p>Retornando e acertando a charada, você é autorizado a entrar na ilha.</p>
+                <button class="btn-proximo" data-proximo="11">Você acerta a charada e entra a ilha</button>
+            </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
